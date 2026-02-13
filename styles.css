@@ -364,4 +364,4 @@ input:focus, textarea:focus{
   .hero{ grid-template-columns: 1fr; text-align: center; }
   .hero-actions{ justify-content: center; }
   .form-grid{ grid-template-columns: 1fr; }
-  }
+}
