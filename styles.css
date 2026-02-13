@@ -316,3 +316,15 @@ input, textarea{
     grid-template-columns: 1fr 1fr;
   }
 }
+/* THEMES */
+:root[data-theme="executive-blue"]{
+  --accent:#4e8cff;
+}
+
+:root[data-theme="steel-cyan"]{
+  --accent:#38cbd6;
+}
+
+:root[data-theme="muted-indigo"]{
+  --accent:#6f79ff;
+}
