@@ -5,24 +5,21 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Matthew Malone — Senior IT Specialist</title>
 <link rel="stylesheet" href="styles.css">
-<meta name="robots" content="index,follow">
 </head>
 
 <body>
 
 <main class="container">
 
+<!-- HERO -->
 <section class="hero">
 
-<div class="hero-left">
-
-<!-- Themes Dropdown (Top Left) -->
-<div class="hero-topbar">
-<label for="themeSelect">Themes</label>
+<div class="theme-switcher">
+<label>Theme</label>
 <select id="themeSelect">
-<option value="executive-blue">Executive Blue</option>
-<option value="steel-cyan">Steel Cyan</option>
-<option value="muted-indigo">Muted Indigo</option>
+<option value="executive">Executive Blue</option>
+<option value="steel">Steel Cyan</option>
+<option value="indigo">Muted Indigo</option>
 </select>
 </div>
 
@@ -34,9 +31,7 @@
 <div class="hero-actions">
 <a class="btn primary" href="resume.pdf" download>Download PDF</a>
 <a class="btn" href="https://linkedin.com/in/matthew-malone-82b09099" target="_blank">LinkedIn</a>
-<a class="btn icon" href="#contact">✉</a>
-</div>
-
+<a class="btn" href="#contact">Contact</a>
 </div>
 
 <div class="profile-wrapper">
@@ -45,7 +40,7 @@
 
 </section>
 
-<!-- Floating Mid Nav -->
+<!-- FLOATING NAV -->
 <nav class="mid-nav">
 <a href="#summary">Summary</a>
 <a href="#skills">Skills</a>
@@ -54,6 +49,7 @@
 <a href="#contact">Contact</a>
 </nav>
 
+<!-- SUMMARY -->
 <section id="summary" class="card">
 <h2>Professional Summary</h2>
 <p>
@@ -61,6 +57,73 @@ Senior IT specialist with extensive experience designing, securing and operating
 </p>
 </section>
 
+<!-- SKILLS -->
+<section id="skills" class="card">
+<h2>Skills</h2>
+<div class="skills-grid">
+<div>
+<h3>Infrastructure</h3>
+<ul>
+<li>Windows Server</li>
+<li>Active Directory & GPO</li>
+<li>DNS / DHCP</li>
+<li>Virtualization</li>
+</ul>
+</div>
+<div>
+<h3>Networking</h3>
+<ul>
+<li>Routing & Switching</li>
+<li>VLANs</li>
+<li>Firewalls & VPN</li>
+<li>Network Troubleshooting</li>
+</ul>
+</div>
+<div>
+<h3>Security</h3>
+<ul>
+<li>System Hardening</li>
+<li>Patching</li>
+<li>Vulnerability Management</li>
+<li>Disaster Recovery</li>
+</ul>
+</div>
+</div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="card">
+<h2>Experience</h2>
+
+<h3>Senior IT Specialist — Hino Motors Manufacturing USA</h3>
+<p>Jan 2022 — Nov 2025</p>
+<ul>
+<li>Led infrastructure operations in manufacturing environment.</li>
+<li>Managed Windows Server and Active Directory estate.</li>
+<li>Improved backup and disaster recovery procedures.</li>
+<li>Implemented security hardening and monitoring.</li>
+</ul>
+
+<h3>Network Engineer — Computers & Networks Inc.</h3>
+<p>Nov 2016 — Jan 2022</p>
+<ul>
+<li>Designed and maintained LAN/WAN environments.</li>
+<li>Configured firewalls and VPNs.</li>
+<li>Reduced network incident resolution time.</li>
+</ul>
+
+</section>
+
+<!-- EDUCATION -->
+<section id="education" class="card">
+<h2>Education</h2>
+<ul>
+<li>BAS Information Systems & Cybersecurity — ITT Technical Institute</li>
+<li>AAS Network System Administration — ITT Technical Institute</li>
+</ul>
+</section>
+
+<!-- CONTACT -->
 <section id="contact" class="card">
 <h2>Contact</h2>
 <form action="https://formspree.io/f/xojnebnz" method="POST">
