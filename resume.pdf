@@ -1,29 +1,223 @@
-%PDF-1.4
-%âãÏÓ
-1 0 obj
-<< /Type /Catalog /Pages 2 0 R >>
-endobj
-2 0 obj
-<< /Type /Pages /Kids [3 0 R] /Count 1 >>
-endobj
-3 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R >>
-endobj
-4 0 obj
-<< /Length 44 >>
-stream
-BT /F1 24 Tf 72 720 Td (Resume Placeholder) Tj ET
-endstream
-endobj
-xref
-0 5
-0000000000 65535 f 
-0000000010 00000 n 
-0000000067 00000 n 
-0000000120 00000 n 
-0000000200 00000 n 
-trailer
-<< /Root 1 0 R /Size 5 >>
-startxref
-280
-%%EOF
+diff --git a/resume.pdf b/resume.pdf
+index e74aa4ef8cf42e0f06934af31bf289e4e1fd0e4e..1f41091d6863041bed5b811e99c9ad397108e2fd 100644
+--- a/resume.pdf
++++ b/resume.pdf
+@@ -1,29 +1,206 @@
+ %PDF-1.4
+-%âãÏÓ
++%
+ 1 0 obj
+ << /Type /Catalog /Pages 2 0 R >>
+ endobj
+ 2 0 obj
+-<< /Type /Pages /Kids [3 0 R] /Count 1 >>
++<< /Type /Pages /Kids [6 0 R 8 0 R] /Count 2 >>
+ endobj
+ 3 0 obj
+-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R >>
++<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+ endobj
+ 4 0 obj
+-<< /Length 44 >>
++<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
++endobj
++5 0 obj
++<< /Length 3726 >>
++stream
++BT
++/F2 11 Tf
++1 0 0 1 54 738 Tm
++(MATTHEW MALONE) Tj
++/F1 11 Tf
++1 0 0 1 54 724 Tm
++(Southaven, MS | LinkedIn: linkedin.com/in/matthew-malone-82b09099) Tj
++/F2 11 Tf
++1 0 0 1 54 696 Tm
++(PROFESSIONAL SUMMARY) Tj
++/F1 11 Tf
++1 0 0 1 54 682 Tm
++(Senior IT specialist with extensive experience designing, securing and operating) Tj
++/F1 11 Tf
++1 0 0 1 54 668 Tm
++(enterprise networks and infrastructure across MSP and manufacturing environments.) Tj
++/F1 11 Tf
++1 0 0 1 54 654 Tm
++(Proven record of reducing downtime, improving reliability and delivering practical) Tj
++/F1 11 Tf
++1 0 0 1 54 640 Tm
++(solutions for Windows server, networking, security and disaster recovery operations.) Tj
++/F2 11 Tf
++1 0 0 1 54 612 Tm
++(SKILLS) Tj
++/F1 11 Tf
++1 0 0 1 54 598 Tm
++(Infrastructure: Windows Server, Active Directory & GPO, DNS/DHCP, virtualization.) Tj
++/F1 11 Tf
++1 0 0 1 54 584 Tm
++(Networking: Routing and switching, VLANs, firewalls, VPN, troubleshooting.) Tj
++/F1 11 Tf
++1 0 0 1 54 570 Tm
++(Security: System hardening, patching, vulnerability management, backup and disaster) Tj
++/F1 11 Tf
++1 0 0 1 54 556 Tm
++(recovery.) Tj
++/F1 11 Tf
++1 0 0 1 54 542 Tm
++(Operations: User support, documentation, change coordination, cross-functional) Tj
++/F1 11 Tf
++1 0 0 1 54 528 Tm
++(collaboration.) Tj
++/F2 11 Tf
++1 0 0 1 54 500 Tm
++(PROFESSIONAL EXPERIENCE) Tj
++/F2 11 Tf
++1 0 0 1 54 486 Tm
++(Senior IT Specialist | Hino Motors Manufacturing USA, Inc. | Marion, AR | Jan 2022 -) Tj
++/F2 11 Tf
++1 0 0 1 54 472 Tm
++(Nov 2025) Tj
++/F1 11 Tf
++1 0 0 1 54 458 Tm
++(- Led infrastructure operations for manufacturing environments, improving availability) Tj
++/F1 11 Tf
++1 0 0 1 54 444 Tm
++(and reducing unplanned downtime through monitoring and preventive maintenance.) Tj
++/F1 11 Tf
++1 0 0 1 54 430 Tm
++(- Managed Windows Server estate, Active Directory and GPOs to centralize user and) Tj
++/F1 11 Tf
++1 0 0 1 54 416 Tm
++(device policy.) Tj
++/F1 11 Tf
++1 0 0 1 54 402 Tm
++(- Improved backup and disaster recovery procedures with repeatable restore testing and) Tj
++/F1 11 Tf
++1 0 0 1 54 388 Tm
++(reduced recovery time.) Tj
++/F1 11 Tf
++1 0 0 1 54 374 Tm
++(- Collaborated with network and security teams to harden systems and enforce least-) Tj
++/F1 11 Tf
++1 0 0 1 54 360 Tm
++(privilege access.) Tj
++/F1 11 Tf
++1 0 0 1 54 346 Tm
++(- Documented procedures and trained staff on operational workflows and incident) Tj
++/F1 11 Tf
++1 0 0 1 54 332 Tm
++(response.) Tj
++/F2 11 Tf
++1 0 0 1 54 304 Tm
++(Network Engineer | Computers & Networks Inc. | Memphis, TN | Nov 2016 - Jan 2022) Tj
++/F1 11 Tf
++1 0 0 1 54 290 Tm
++(- Designed and maintained LAN/WAN networks including routing, switching and VLAN) Tj
++/F1 11 Tf
++1 0 0 1 54 276 Tm
++(segmentation.) Tj
++/F1 11 Tf
++1 0 0 1 54 262 Tm
++(- Configured and supported firewalls and VPNs for remote access and site-to-site) Tj
++/F1 11 Tf
++1 0 0 1 54 248 Tm
++(connectivity.) Tj
++/F1 11 Tf
++1 0 0 1 54 234 Tm
++(- Standardized troubleshooting procedures to reduce mean time to resolution for) Tj
++/F1 11 Tf
++1 0 0 1 54 220 Tm
++(network incidents.) Tj
++/F1 11 Tf
++1 0 0 1 54 206 Tm
++(- Delivered upgrades and migrations with low customer impact through coordinated) Tj
++/F1 11 Tf
++1 0 0 1 54 192 Tm
++(change windows.) Tj
++/F2 11 Tf
++1 0 0 1 54 164 Tm
++(Network System Administrator | Business Computers of Memphis | Memphis, TN | Oct 2015) Tj
++/F2 11 Tf
++1 0 0 1 54 150 Tm
++(- Oct 2016) Tj
++/F1 11 Tf
++1 0 0 1 54 136 Tm
++(- Administered small business servers and network systems while maintaining uptime and) Tj
++/F1 11 Tf
++1 0 0 1 54 122 Tm
++(support.) Tj
++/F1 11 Tf
++1 0 0 1 54 108 Tm
++(- Implemented Active Directory onboarding and group policies to improve access control) Tj
++/F1 11 Tf
++1 0 0 1 54 94 Tm
++(consistency.) Tj
++/F1 11 Tf
++1 0 0 1 54 80 Tm
++(- Maintained backups and provided recovery support during client incidents.) Tj
++ET
++endstream
++endobj
++6 0 obj
++<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 5 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> >>
++endobj
++7 0 obj
++<< /Length 808 >>
+ stream
+-BT /F1 24 Tf 72 720 Td (Resume Placeholder) Tj ET
++BT
++/F2 11 Tf
++1 0 0 1 54 724 Tm
++(Aviation Maintenance | US Navy | Aug 2005 - Nov 2008) Tj
++/F1 11 Tf
++1 0 0 1 54 710 Tm
++(- Performed maintenance and inspection of aviation systems under strict procedural and) Tj
++/F1 11 Tf
++1 0 0 1 54 696 Tm
++(safety standards.) Tj
++/F1 11 Tf
++1 0 0 1 54 682 Tm
++(- Worked within cross-functional teams to diagnose issues and ensure mission) Tj
++/F1 11 Tf
++1 0 0 1 54 668 Tm
++(readiness.) Tj
++/F1 11 Tf
++1 0 0 1 54 640 Tm
++(Additional Experience: Lead Receiving, Glazer's Distributors \(Jan 2009 - Jan 2014\)) Tj
++/F2 11 Tf
++1 0 0 1 54 612 Tm
++(EDUCATION) Tj
++/F1 11 Tf
++1 0 0 1 54 598 Tm
++(ITT Technical Institute-Cordova - BAS Information Systems & Cyber-security, 2015-2017) Tj
++/F1 11 Tf
++1 0 0 1 54 584 Tm
++(ITT Technical Institute-Cordova - AAS Network System Administration, 2013-2016) Tj
++ET
+ endstream
+ endobj
++8 0 obj
++<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 7 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> >>
++endobj
+ xref
+-0 5
++0 9
+ 0000000000 65535 f 
+-0000000010 00000 n 
+-0000000067 00000 n 
+-0000000120 00000 n 
+-0000000200 00000 n 
++0000000015 00000 n 
++0000000064 00000 n 
++0000000127 00000 n 
++0000000197 00000 n 
++0000000272 00000 n 
++0000004050 00000 n 
++0000004186 00000 n 
++0000005045 00000 n 
+ trailer
+-<< /Root 1 0 R /Size 5 >>
++<< /Size 9 /Root 1 0 R >>
+ startxref
+-280
++5181
+ %%EOF
