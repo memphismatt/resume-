@@ -1,226 +1,84 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Matthew Malone — Senior IT Specialist</title>
-  <link rel="stylesheet" href="./styles.css">
-  <meta name="robots" content="index,follow">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Matthew Malone — Senior IT Specialist</title>
+<link rel="stylesheet" href="styles.css">
+<meta name="robots" content="index,follow">
 </head>
 
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
 
-  <main id="main" class="container">
+<main class="container">
 
-    <!-- HERO -->
-    <section class="hero" role="region" aria-labelledby="hero-heading">
-      <div class="hero-left">
-        <h1 id="hero-heading">Matthew Malone</h1>
-        <p class="title">Senior IT Specialist / Network &amp; Infrastructure</p>
+<section class="hero">
 
-        <!-- EMAIL ABOVE LOCATION -->
-        <p class="email">
-          <a href="mailto:memphis.matthewmalone@gmail.com">memphis.matthewmalone@gmail.com</a>
-        </p>
+<div class="hero-left">
 
-        <p class="location">Southaven, MS</p>
+<!-- Themes Dropdown (Top Left) -->
+<div class="hero-topbar">
+<label for="themeSelect">Themes</label>
+<select id="themeSelect">
+<option value="executive-blue">Executive Blue</option>
+<option value="steel-cyan">Steel Cyan</option>
+<option value="muted-indigo">Muted Indigo</option>
+</select>
+</div>
 
-        <div class="hero-actions">
-          <a class="btn primary" href="./resume.pdf" download aria-label="Download resume PDF">Download PDF</a>
-          <a class="btn" href="https://linkedin.com/in/matthew-malone-82b09099" rel="noopener" target="_blank">LinkedIn</a>
-          <button id="copy-linkedin" class="icon-btn" title="Copy LinkedIn URL" aria-label="Copy LinkedIn URL">🔗</button>
-        </div>
+<h1>Matthew Malone</h1>
+<p class="title">Senior IT Specialist / Network & Infrastructure</p>
+<p class="email">memphis.matthewmalone@gmail.com</p>
+<p class="location">Southaven, MS</p>
 
-        <!-- THEME DROPDOWN (STAYS IN HERO AREA) -->
-        <div class="theme-row" aria-label="Theme selection">
-          <label class="theme-label" for="themeSelect">Themes</label>
-          <select id="themeSelect" class="theme-select">
-            <option value="executive-blue">Executive Blue</option>
-            <option value="steel-cyan">Steel Cyan</option>
-            <option value="muted-indigo">Muted Indigo</option>
-          </select>
-        </div>
-      </div>
+<div class="hero-actions">
+<a class="btn primary" href="resume.pdf" download>Download PDF</a>
+<a class="btn" href="https://linkedin.com/in/matthew-malone-82b09099" target="_blank">LinkedIn</a>
+<a class="btn icon" href="#contact">✉</a>
+</div>
 
-      <div class="hero-image">
-        <div class="profile-wrapper">
-          <img src="./profile.png" alt="Matthew Malone professional headshot" class="profile-img">
-        </div>
-      </div>
-    </section>
+</div>
 
-    <!-- NAV MOVED BELOW HERO AND STICKY -->
-    <header class="site-header sticky-mid" id="nav">
-      <nav class="mid-nav" aria-label="Primary navigation">
-        <ul>
-          <li><a href="#summary">Summary</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+<div class="profile-wrapper">
+<img src="profile.png" class="profile-img">
+</div>
 
-    <!-- SUMMARY -->
-    <section id="summary" class="card" aria-labelledby="summary-heading">
-      <h2 id="summary-heading">Professional summary</h2>
-      <p>
-        Senior IT specialist with extensive experience designing, securing and operating enterprise networks and infrastructure.
-        Proven record of reducing downtime, improving system reliability and delivering production-grade solutions across hybrid environments.
-        Strong collaborator who documents processes, trains staff, and implements pragmatic security and backup practices.
-      </p>
-    </section>
+</section>
 
-    <!-- SKILLS -->
-    <section id="skills" class="card" aria-labelledby="skills-heading">
-      <h2 id="skills-heading">Skills</h2>
-      <div class="skill-grid">
-        <div>
-          <h3>Infrastructure</h3>
-          <ul>
-            <li>Windows Server</li>
-            <li>Active Directory &amp; GPO</li>
-            <li>DNS / DHCP</li>
-            <li>Virtualization</li>
-          </ul>
-        </div>
-        <div>
-          <h3>Networking</h3>
-          <ul>
-            <li>Routing &amp; switching</li>
-            <li>VLANs</li>
-            <li>Firewalls &amp; VPN</li>
-            <li>Network troubleshooting</li>
-          </ul>
-        </div>
-        <div>
-          <h3>Security</h3>
-          <ul>
-            <li>System hardening</li>
-            <li>Patching &amp; vulnerability management</li>
-            <li>Backups &amp; disaster recovery</li>
-            <li>Least privilege principles</li>
-          </ul>
-        </div>
-        <div>
-          <h3>Operations</h3>
-          <ul>
-            <li>User support &amp; training</li>
-            <li>Documentation</li>
-            <li>Change coordination</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+<!-- Floating Mid Nav -->
+<nav class="mid-nav">
+<a href="#summary">Summary</a>
+<a href="#skills">Skills</a>
+<a href="#experience">Experience</a>
+<a href="#education">Education</a>
+<a href="#contact">Contact</a>
+</nav>
 
-    <!-- EXPERIENCE -->
-    <section id="experience" class="card" aria-labelledby="experience-heading">
-      <h2 id="experience-heading">Experience</h2>
+<section id="summary" class="card">
+<h2>Professional Summary</h2>
+<p>
+Senior IT specialist with extensive experience designing, securing and operating enterprise networks and infrastructure. Proven record of reducing downtime, improving system reliability and delivering production-grade solutions across hybrid environments.
+</p>
+</section>
 
-      <details class="job" open>
-        <summary>
-          <span class="role">Senior IT Specialist</span>
-          <span class="company">Hino Motors Manufacturing USA, Inc. — Marion, AR</span>
-          <span class="dates">Jan 2022 — Nov 2025</span>
-        </summary>
-        <div class="job-body">
-          <ul>
-            <li>Led infrastructure operations for manufacturing environment; improved availability and reduced unplanned downtime through monitoring and preventive maintenance.</li>
-            <li>Managed Windows Server estate, Active Directory and GPOs to centralize device and user policies.</li>
-            <li>Improved backup and DR procedures with consistent restore testing.</li>
-            <li>Collaborated with network/security teams to harden systems and enforce least-privilege access.</li>
-            <li>Documented procedures and trained staff on incident response and operations.</li>
-          </ul>
-        </div>
-      </details>
+<section id="contact" class="card">
+<h2>Contact</h2>
+<form action="https://formspree.io/f/xojnebnz" method="POST">
+<input type="text" name="name" placeholder="Your Name" required>
+<input type="email" name="email" placeholder="Your Email" required>
+<textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+<button type="submit" class="btn primary">Send Message</button>
+</form>
+</section>
 
-      <details class="job">
-        <summary>
-          <span class="role">Network Engineer</span>
-          <span class="company">Computers &amp; Networks Inc. — Memphis, TN</span>
-          <span class="dates">Nov 2016 — Jan 2022</span>
-        </summary>
-        <div class="job-body">
-          <ul>
-            <li>Designed and maintained LAN/WAN networks: routing, switching, VLAN segmentation.</li>
-            <li>Configured and supported firewalls and VPNs for remote access and site-to-site connectivity.</li>
-            <li>Reduced MTTR through standardized troubleshooting procedures.</li>
-            <li>Delivered upgrades and migrations with minimal business impact.</li>
-          </ul>
-        </div>
-      </details>
+</main>
 
-      <details class="job">
-        <summary>
-          <span class="role">Network System Administrator</span>
-          <span class="company">Business Computers of Memphis — Memphis, TN</span>
-          <span class="dates">Oct 2015 — Oct 2016</span>
-        </summary>
-        <div class="job-body">
-          <ul>
-            <li>Administered small business server/network systems and user support.</li>
-            <li>Implemented AD onboarding and group policies.</li>
-            <li>Maintained backups and performed recovery support.</li>
-          </ul>
-        </div>
-      </details>
+<script>
+const select = document.getElementById("themeSelect");
+select.addEventListener("change", function(){
+document.documentElement.setAttribute("data-theme", this.value);
+});
+</script>
 
-      <details class="job">
-        <summary>
-          <span class="role">Aviation Maintenance</span>
-          <span class="company">US Navy</span>
-          <span class="dates">Aug 2005 — Nov 2008</span>
-        </summary>
-        <div class="job-body">
-          <ul>
-            <li>Performed maintenance and inspections under strict procedural/safety standards.</li>
-            <li>Worked cross-functionally to diagnose issues and ensure mission readiness.</li>
-          </ul>
-        </div>
-      </details>
-    </section>
-
-    <!-- EDUCATION -->
-    <section id="education" class="card" aria-labelledby="education-heading">
-      <h2 id="education-heading">Education</h2>
-      <ul>
-        <li><strong>ITT Technical Institute-Cordova</strong> — BAS Information Systems &amp; Cyber-security, 2015–2017</li>
-        <li><strong>ITT Technical Institute-Cordova</strong> — AAS Network System Administration, 2013–2016</li>
-      </ul>
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact" class="card" aria-labelledby="contact-heading">
-      <h2 id="contact-heading">Contact</h2>
-
-      <form action="https://formspree.io/f/xojnebnz" method="POST" class="contact-form">
-        <input type="hidden" name="_subject" value="New Resume Website Contact">
-        <input type="hidden" name="_captcha" value="false">
-
-        <div class="form-grid">
-          <input type="text" name="name" placeholder="Your name" required>
-          <input type="email" name="email" placeholder="Your email" required>
-        </div>
-
-        <textarea name="message" rows="6" placeholder="Message" required></textarea>
-
-        <button class="btn primary" type="submit">Send message</button>
-      </form>
-
-      <p class="contact-direct">
-        Or email directly: <a href="mailto:memphis.matthewmalone@gmail.com">memphis.matthewmalone@gmail.com</a>
-        • Mobile: <a href="tel:+16629019904">(662) 901-9904</a>
-      </p>
-    </section>
-
-    <footer class="site-footer">
-      <p>Last updated: 2026</p>
-    </footer>
-
-  </main>
-
-  <script src="./script.js" defer></script>
 </body>
 </html>
