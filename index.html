@@ -1,61 +1,70 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="exec">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Matthew Malone — Senior IT Specialist</title>
-
   <link rel="stylesheet" href="./styles.css">
-  <script src="./script.js" defer></script>
-
   <meta name="robots" content="index,follow">
 </head>
 
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <nav class="top-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="#summary">Summary</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Theme switcher -->
+      <div class="theme-switch" role="group" aria-label="Theme switcher">
+        <button class="chip" data-set-theme="exec" aria-pressed="true">Executive Blue</button>
+        <button class="chip" data-set-theme="cyan" aria-pressed="false">Steel Cyan</button>
+        <button class="chip" data-set-theme="indigo" aria-pressed="false">Muted Indigo</button>
+      </div>
+    </div>
+  </header>
 
   <main id="main" class="container">
-
-    <!-- HERO -->
-    <section class="hero" role="region" aria-labelledby="hero-heading">
+    <section class="hero" aria-labelledby="hero-heading">
       <div class="hero-left">
         <h1 id="hero-heading">Matthew Malone</h1>
         <p class="title">Senior IT Specialist / Network &amp; Infrastructure</p>
+
+        <p class="email">
+          <a href="mailto:memphis.matthewmalone@gmail.com">memphis.matthewmalone@gmail.com</a>
+        </p>
+
         <p class="location">Southaven, MS</p>
 
         <div class="hero-actions">
-          <a class="btn primary" href="./resume.pdf" download aria-label="Download resume PDF">Download PDF</a>
+          <a class="btn primary" href="./resume.pdf" download>Download PDF</a>
           <a class="btn" href="https://linkedin.com/in/matthew-malone-82b09099" rel="noopener" target="_blank">LinkedIn</a>
-          <button id="copy-linkedin" class="icon-btn" title="Copy LinkedIn URL" aria-label="Copy LinkedIn URL">🔗</button>
+          <button id="copy-linkedin" class="btn icon" type="button" title="Copy LinkedIn URL" aria-label="Copy LinkedIn URL">🔗</button>
         </div>
       </div>
 
       <div class="hero-image">
-        <img src="./profile.png" alt="Matthew Malone professional headshot" width="160" height="160">
+        <img src="./profile.png" alt="Matthew Malone professional headshot" width="220" height="220">
       </div>
     </section>
 
-    <!-- NAV BELOW HERO -->
-    <nav class="top-nav below-hero" aria-label="Primary navigation">
-      <ul>
-        <li><a href="#summary">Summary</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#education">Education</a></li>
-      </ul>
-    </nav>
-
-    <!-- SUMMARY -->
     <section id="summary" class="card" aria-labelledby="summary-heading">
       <h2 id="summary-heading">Professional summary</h2>
       <p>
-        Senior IT specialist with extensive experience designing, securing and operating enterprise networks and infrastructure. Proven record of reducing downtime, improving system reliability and delivering production-grade solutions across hybrid environments. Strong collaborator who documents processes, trains staff, and implements pragmatic security and backup practices.
+        Senior IT specialist with extensive experience designing, securing and operating enterprise networks and infrastructure.
+        Proven record of reducing downtime, improving system reliability and delivering production-grade solutions across hybrid environments.
       </p>
     </section>
 
-    <!-- SKILLS -->
     <section id="skills" class="card" aria-labelledby="skills-heading">
       <h2 id="skills-heading">Skills</h2>
+
       <div class="skill-grid">
         <div>
           <h3>Infrastructure</h3>
@@ -66,6 +75,7 @@
             <li>Virtualization</li>
           </ul>
         </div>
+
         <div>
           <h3>Networking</h3>
           <ul>
@@ -75,27 +85,29 @@
             <li>Network troubleshooting</li>
           </ul>
         </div>
+
         <div>
           <h3>Security</h3>
           <ul>
             <li>System hardening</li>
-            <li>Patching &amp; vulnerability management</li>
+            <li>Patching &amp; vulnerability</li>
             <li>Backups &amp; disaster recovery</li>
             <li>Least privilege principles</li>
           </ul>
         </div>
+
         <div>
           <h3>Operations</h3>
           <ul>
             <li>User support &amp; training</li>
             <li>Documentation</li>
             <li>Change coordination</li>
+            <li>Incident response</li>
           </ul>
         </div>
       </div>
     </section>
 
-    <!-- EXPERIENCE -->
     <section id="experience" class="card" aria-labelledby="experience-heading">
       <h2 id="experience-heading">Experience</h2>
 
@@ -107,11 +119,11 @@
         </summary>
         <div class="job-body">
           <ul>
-            <li>Led infrastructure operations for manufacturing environment; improved system availability and reduced unplanned downtime by implementing monitoring and preventive maintenance.</li>
-            <li>Managed Windows Server estate, Active Directory and GPOs to centralize device and user policies across sites.</li>
-            <li>Improved backup and DR procedures, reducing recovery time and ensuring consistent restore testing.</li>
-            <li>Collaborated with network and security teams to harden systems and enforce least-privilege access.</li>
-            <li>Documented procedures and trained staff on common operational tasks and incident response.</li>
+            <li>Led infrastructure operations for manufacturing environment; improved availability and reduced unplanned downtime.</li>
+            <li>Managed Windows Server estate, Active Directory, and GPOs to centralize policy.</li>
+            <li>Improved backup and DR procedures with repeatable restore testing.</li>
+            <li>Collaborated with network/security teams to harden systems and enforce least privilege.</li>
+            <li>Documented procedures and trained staff on operational workflows and incident response.</li>
           </ul>
         </div>
       </details>
@@ -124,70 +136,43 @@
         </summary>
         <div class="job-body">
           <ul>
-            <li>Designed and maintained LAN/WAN networks, including routing, switching and VLAN segmentation for performance and security.</li>
-            <li>Configured and supported firewalls and VPNs to secure remote access and site-to-site connectivity.</li>
-            <li>Troubleshot complex network issues and reduced mean time to resolution through standardized procedures.</li>
-            <li>Performed network upgrades and migrations with minimal customer impact by coordinating change windows and testing plans.</li>
+            <li>Designed and maintained LAN/WAN networks including routing, switching and VLAN segmentation.</li>
+            <li>Configured/support firewalls and VPNs for secure remote access and site-to-site connectivity.</li>
+            <li>Standardized troubleshooting to reduce mean time to resolution.</li>
+            <li>Delivered upgrades/migrations with minimal impact through coordinated change windows.</li>
           </ul>
         </div>
       </details>
-
-      <details class="job">
-        <summary>
-          <span class="role">Network System Administrator</span>
-          <span class="company">Business Computers of Memphis — Memphis, TN</span>
-          <span class="dates">Oct 2015 — Oct 2016</span>
-        </summary>
-        <div class="job-body">
-          <ul>
-            <li>Administered small business server and network systems, maintaining uptime and user support.</li>
-            <li>Implemented AD user/workstation onboarding and group policies to streamline access control.</li>
-            <li>Maintained backups and provided recovery support for client incidents.</li>
-            <li>Created documentation to simplify routine maintenance and client handoffs.</li>
-          </ul>
-        </div>
-      </details>
-
-      <details class="job">
-        <summary>
-          <span class="role">Aviation Maintenance</span>
-          <span class="company">US Navy</span>
-          <span class="dates">Aug 2005 — Nov 2008</span>
-        </summary>
-        <div class="job-body">
-          <ul>
-            <li>Performed maintenance and inspections on aviation systems, following strict safety and procedural standards.</li>
-            <li>Worked on cross-functional teams to diagnose issues and ensure mission readiness.</li>
-          </ul>
-        </div>
-      </details>
-
-      <div class="additional">
-        <h3>Additional experience</h3>
-        <article>
-          <h4>Lead Receiving — Glazer's Distributors</h4>
-          <p class="meta">Jan 2009 — Jan 2014</p>
-          <ul>
-            <li>Managed receiving operations and coordinated inbound logistics for timely inventory processing.</li>
-            <li>Supervised staff and maintained operational documentation.</li>
-          </ul>
-        </article>
-      </div>
     </section>
 
-    <!-- EDUCATION -->
     <section id="education" class="card" aria-labelledby="education-heading">
       <h2 id="education-heading">Education</h2>
       <ul>
-        <li><strong>ITT Technical Institute-Cordova</strong> — BAS Information Systems &amp; Cyber-security (Cyber Security), 2015–2017</li>
+        <li><strong>ITT Technical Institute-Cordova</strong> — BAS Information Systems &amp; Cyber-security, 2015–2017</li>
         <li><strong>ITT Technical Institute-Cordova</strong> — AAS Network System Administration, 2013–2016</li>
       </ul>
     </section>
 
-    <footer class="site-footer">
-      <p>Last updated: 2026</p>
-    </footer>
+    <section id="contact" class="card contact-card" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <p class="muted">Send a message directly from this site.</p>
 
+      <!-- Replace YOUR_FORM_ID with your Formspree endpoint -->
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div class="form-grid">
+          <input type="text" name="name" placeholder="Your name" required>
+          <input type="email" name="email" placeholder="Your email" required>
+        </div>
+        <textarea name="message" rows="6" placeholder="Message" required></textarea>
+        <button class="btn primary" type="submit">Send message</button>
+      </form>
+    </section>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Matthew Malone</p>
+    </footer>
   </main>
+
+  <script src="./script.js" defer></script>
 </body>
 </html>
