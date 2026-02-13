@@ -135,13 +135,46 @@ Senior IT specialist with extensive experience designing, securing and operating
 </section>
 
 </main>
-
 <script>
+/* Theme Switch */
 const select = document.getElementById("themeSelect");
 select.addEventListener("change", function(){
 document.documentElement.setAttribute("data-theme", this.value);
 });
-</script>
 
+/* Active Nav Highlight */
+const sections = document.querySelectorAll("section");
+const navLinks = document.querySelectorAll(".mid-nav a");
+
+window.addEventListener("scroll", () => {
+  let current = "";
+  sections.forEach(section => {
+    const sectionTop = section.offsetTop - 150;
+    if (scrollY >= sectionTop) {
+      current = section.getAttribute("id");
+    }
+  });
+
+  navLinks.forEach(link => {
+    link.classList.remove("active");
+    if (link.getAttribute("href") === "#" + current) {
+      link.classList.add("active");
+    }
+  });
+});
+
+/* Section Fade In */
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if(entry.isIntersecting){
+      entry.target.classList.add("visible");
+    }
+  });
+},{ threshold: 0.15 });
+
+sections.forEach(section => {
+  observer.observe(section);
+});
+</script>
 </body>
 </html>
