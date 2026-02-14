@@ -1,194 +1,259 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Matthew Malone — Senior IT Specialist</title>
-<link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Matthew Malone — Senior IT Specialist</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
+  <a class="skip-link" href="#summary">Skip to content</a>
 
-<main class="container">
+  <main class="container">
 
-<!-- HERO -->
-<section class="hero">
+    <!-- HERO -->
+    <section class="hero" aria-label="Hero">
+      <!-- Theme dropdown (top-left) -->
+      <div class="hero-topbar" aria-label="Theme selector">
+        <label class="theme-label" for="themeSelect">Themes</label>
+        <select id="themeSelect" class="theme-select">
+          <option value="executive-blue">Executive Blue</option>
+          <option value="steel-cyan">Steel Cyan</option>
+          <option value="muted-indigo">Muted Indigo</option>
+        </select>
+      </div>
 
-<div class="hero-topbar">
-  <label for="themeSelect">Themes</label>
-  <select id="themeSelect">
-    <option value="executive-blue">Executive Blue</option>
-    <option value="steel-cyan">Steel Cyan</option>
-    <option value="muted-indigo">Muted Indigo</option>
-  </select>
-</div>
+      <h1>Matthew Malone</h1>
+      <p class="title">Senior IT Specialist / Network &amp; Infrastructure</p>
 
-<h1>Matthew Malone</h1>
-<p class="title">Senior IT Specialist / Network & Infrastructure</p>
-<p class="email">memphis.matthewmalone@gmail.com</p>
-<p class="location">Location: Southaven, MS</p>
+      <p class="email">
+        <a href="mailto:memphis.matthewmalone@gmail.com">memphis.matthewmalone@gmail.com</a>
+      </p>
 
-<div class="hero-actions">
-<a class="btn primary" href="resume.pdf" download>Download PDF</a>
-<a class="btn" href="https://linkedin.com/in/matthew-malone-82b09099" target="_blank">LinkedIn</a>
-<a class="btn" href="#contact">Contact</a>
-</div>
+      <p class="location">Southaven, MS</p>
 
-<div class="profile-wrapper">
-<img src="profile.png" class="profile-img">
-</div>
+      <div class="hero-actions">
+        <a class="btn primary" href="resume.pdf" download>Download PDF</a>
+        <a class="btn" href="https://linkedin.com/in/matthew-malone-82b09099" target="_blank" rel="noopener">LinkedIn</a>
+        <button class="btn icon-btn" id="copyLinkedIn" type="button" title="Copy LinkedIn URL" aria-label="Copy LinkedIn URL">🔗</button>
+        <a class="btn" href="#contact">Contact</a>
+      </div>
 
-</section>
+      <div class="profile-wrapper" aria-label="Profile photo">
+        <img src="profile.png" alt="Matthew Malone professional headshot" class="profile-img" />
+      </div>
 
-<!-- FLOATING NAV -->
-<nav class="mid-nav">
-<a href="#summary">Summary</a>
-<a href="#skills">Skills</a>
-<a href="#experience">Experience</a>
-<a href="#education">Education</a>
-<a href="#contact">Contact</a>
-</nav>
+      <p class="hero-subnote">
+        Open to Infrastructure / Network roles • Memphis area / Remote
+      </p>
+    </section>
 
-<!-- SUMMARY -->
-<section id="summary" class="card">
-<h2>Professional Summary</h2>
-<p>
-Senior IT specialist with extensive experience designing, securing and operating enterprise networks and infrastructure. Proven record of reducing downtime, improving system reliability and delivering production-grade solutions across hybrid environments.
-</p>
-</section>
+    <!-- FLOATING NAV (below hero, stays while scrolling) -->
+    <nav class="mid-nav" aria-label="Section navigation">
+      <a href="#summary">Summary</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
 
-<!-- SKILLS -->
-<section id="skills" class="card">
-<h2>Skills</h2>
-<div class="skills-grid">
-<div>
-<h3>Infrastructure</h3>
-<ul>
-<li>Windows Server</li>
-<li>Active Directory & GPO</li>
-<li>DNS / DHCP</li>
-<li>Virtualization</li>
-</ul>
-</div>
-<div>
-<h3>Networking</h3>
-<ul>
-<li>Routing & Switching</li>
-<li>VLANs</li>
-<li>Firewalls & VPN</li>
-<li>Network Troubleshooting</li>
-</ul>
-</div>
-<div>
-<h3>Security</h3>
-<ul>
-<li>System Hardening</li>
-<li>Patching</li>
-<li>Vulnerability Management</li>
-<li>Disaster Recovery</li>
-</ul>
-</div>
-</div>
-</section>
+    <!-- SUMMARY -->
+    <section id="summary" class="card reveal">
+      <h2>Professional Summary</h2>
+      <p>
+        Senior IT specialist with extensive experience designing, securing, and operating enterprise networks and infrastructure.
+        Proven record of reducing downtime, improving reliability, and delivering production-grade solutions across MSP and
+        manufacturing environments.
+      </p>
+    </section>
 
-<!-- EXPERIENCE -->
-<section id="experience" class="card">
-<h2>Experience</h2>
+    <!-- SKILLS -->
+    <section id="skills" class="card reveal">
+      <h2>Skills</h2>
 
-<h3>Senior IT Specialist — Hino Motors Manufacturing USA</h3>
-<p>Jan 2022 — Nov 2025</p>
-<ul>
-<li>Led infrastructure operations in manufacturing environment.</li>
-<li>Managed Windows Server and Active Directory estate.</li>
-<li>Improved backup and disaster recovery procedures.</li>
-<li>Implemented security hardening and monitoring.</li>
-</ul>
+      <div class="skills-grid">
+        <div>
+          <h3>Infrastructure</h3>
+          <ul>
+            <li>Windows Server</li>
+            <li>Active Directory &amp; GPO</li>
+            <li>DNS / DHCP</li>
+            <li>Virtualization</li>
+          </ul>
+        </div>
 
-<h3>Network Engineer — Computers & Networks Inc.</h3>
-<p>Nov 2016 — Jan 2022</p>
-<ul>
-<li>Designed and maintained LAN/WAN environments.</li>
-<li>Configured firewalls and VPNs.</li>
-<li>Reduced network incident resolution time.</li>
-</ul>
+        <div>
+          <h3>Networking</h3>
+          <ul>
+            <li>Routing &amp; Switching</li>
+            <li>VLANs</li>
+            <li>Firewalls &amp; VPN</li>
+            <li>Network Troubleshooting</li>
+          </ul>
+        </div>
 
-</section>
+        <div>
+          <h3>Security</h3>
+          <ul>
+            <li>System Hardening</li>
+            <li>Patching</li>
+            <li>Vulnerability Management</li>
+            <li>Backups &amp; Disaster Recovery</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-<!-- EDUCATION -->
-<section id="education" class="card">
-<h2>Education</h2>
-<ul>
-<li>BAS Information Systems & Cybersecurity — ITT Technical Institute</li>
-<li>AAS Network System Administration — ITT Technical Institute</li>
-</ul>
-</section>
+    <!-- EXPERIENCE (reverse-chronological; includes InCare) -->
+    <section id="experience" class="card reveal">
+      <h2>Experience</h2>
 
-<!-- CONTACT -->
-<section id="contact" class="card">
-<h2>Contact</h2>
-<form action="https://formspree.io/f/xojnebnz" method="POST">
-<input type="text" name="name" placeholder="Your Name" required>
-<input type="email" name="email" placeholder="Your Email" required>
-<textarea name="message" rows="4" placeholder="Your Message" required></textarea>
-<button type="submit" class="btn primary">Send Message</button>
-</form>
-</section>
+      <article class="job">
+        <header class="job-head">
+          <h3>Senior IT Specialist — Hino Motors Manufacturing USA, Inc.</h3>
+          <p class="job-meta">Marion, AR • Jan 2022 — Nov 2025</p>
+        </header>
+        <ul>
+          <li>Led infrastructure operations for manufacturing environment; improved availability and reduced unplanned downtime.</li>
+          <li>Managed Windows Server estate, Active Directory, and GPOs to standardize user/device policy.</li>
+          <li>Improved backup and DR procedures, establishing repeatable restore testing and reducing recovery time.</li>
+          <li>Partnered with network/security teams to harden systems and enforce least-privilege access.</li>
+          <li>Documented procedures and trained staff on operational workflows and incident response.</li>
+        </ul>
+      </article>
 
-</main>
-<script>
-/* Theme Switch */
-document.addEventListener("DOMContentLoaded", () => {
-  const select = document.getElementById("themeSelect");
-  if (!select) return;
+      <article class="job">
+        <header class="job-head">
+          <h3>Network Administrator / Remote Support Specialist — InCare Technologies, Inc.</h3>
+          <p class="job-meta">Collierville, TN • Jan 2021 — Oct 2021</p>
+        </header>
+        <ul>
+          <li>Designed and implemented WAN/LAN connectivity, routing, firewalling, and security at the network level.</li>
+          <li>Delivered hosted and cloud solutions aligned to customer requirements and operational needs.</li>
+          <li>Designed and implemented disaster recovery solutions; supported restore planning and testing.</li>
+          <li>Provided IT support for internal systems and network infrastructure across multiple customer environments.</li>
+          <li>Supported Microsoft technologies (Windows Server, Exchange, SQL, SharePoint) and virtualization (VMware, Citrix, Microsoft).</li>
+          <li>Supported remote access solutions (VPN, Terminal Services, Citrix) and administered RMM tooling (agent scripts, alert response, monitoring).</li>
+          <li>Maintained documentation for computer systems and network infrastructure.</li>
+        </ul>
+      </article>
 
-  // load saved theme (or default)
-  const saved = localStorage.getItem("theme") || "executive-blue";
-  document.documentElement.setAttribute("data-theme", saved);
-  select.value = saved;
+      <article class="job">
+        <header class="job-head">
+          <h3>Network Engineer — Computers &amp; Networks Inc.</h3>
+          <p class="job-meta">Memphis, TN • Nov 2016 — Jan 2022</p>
+        </header>
+        <ul>
+          <li>Designed and maintained LAN/WAN networks including routing, switching, and VLAN segmentation.</li>
+          <li>Configured and supported firewalls and VPNs for remote access and site-to-site connectivity.</li>
+          <li>Standardized troubleshooting procedures to reduce mean time to resolution for network incidents.</li>
+          <li>Delivered upgrades and migrations with minimal customer impact through planned change windows and validation.</li>
+        </ul>
+      </article>
 
-  // change theme
-  select.addEventListener("change", () => {
-    const t = select.value;
-    document.documentElement.setAttribute("data-theme", t);
-    localStorage.setItem("theme", t);
-  });
-});
+      <article class="job">
+        <header class="job-head">
+          <h3>Network System Administrator — Business Computers of Memphis</h3>
+          <p class="job-meta">Memphis, TN • Oct 2015 — Oct 2016</p>
+        </header>
+        <ul>
+          <li>Administered small business servers and network systems; maintained uptime and user support.</li>
+          <li>Implemented Active Directory onboarding and group policies to improve access control consistency.</li>
+          <li>Maintained backups and provided recovery support during client incidents.</li>
+          <li>Created documentation to simplify routine maintenance and client handoffs.</li>
+        </ul>
+      </article>
 
+      <details class="more-experience">
+        <summary>Additional experience</summary>
+        <div class="more-body">
+          <article class="job mini">
+            <header class="job-head">
+              <h3>Material Handler — Synnex</h3>
+              <p class="job-meta">Feb 2015 — Jul 2015</p>
+            </header>
+            <ul>
+              <li>Organized inventory and labels; created a simple label program in HTML/Java/CSS and trained others.</li>
+            </ul>
+          </article>
 
-/* Active Nav Highlight */
-const sections = document.querySelectorAll("section");
-const navLinks = document.querySelectorAll(".mid-nav a");
+          <article class="job mini">
+            <header class="job-head">
+              <h3>Order Processor — Teleflex Medical</h3>
+              <p class="job-meta">Sep 2014 — Jan 2015</p>
+            </header>
+            <ul>
+              <li>Processed outbound medical equipment and inventory labels using SAP logistics tooling.</li>
+            </ul>
+          </article>
 
-window.addEventListener("scroll", () => {
-  let current = "";
-  sections.forEach(section => {
-    const sectionTop = section.offsetTop - 150;
-    if (scrollY >= sectionTop) {
-      current = section.getAttribute("id");
-    }
-  });
+          <article class="job mini">
+            <header class="job-head">
+              <h3>Lead Receiving — Victor L. Robilio Co., Inc.</h3>
+              <p class="job-meta">Jul 2009 — May 2014</p>
+            </header>
+            <ul>
+              <li>Coordinated receiving, inventory accuracy, and team workflow across warehouse operations.</li>
+            </ul>
+          </article>
 
-  navLinks.forEach(link => {
-    link.classList.remove("active");
-    if (link.getAttribute("href") === "#" + current) {
-      link.classList.add("active");
-    }
-  });
-});
+          <article class="job mini">
+            <header class="job-head">
+              <h3>International Outbound Clerk — Johnson &amp; Johnson</h3>
+              <p class="job-meta">Jul 2008 — Jul 2009</p>
+            </header>
+            <ul>
+              <li>Picked, packed, and shipped product using RF scanning processes.</li>
+            </ul>
+          </article>
 
-/* Section Fade In */
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if(entry.isIntersecting){
-      entry.target.classList.add("visible");
-    }
-  });
-},{ threshold: 0.15 });
+          <article class="job mini">
+            <header class="job-head">
+              <h3>United States Navy — Aviation Maintenance</h3>
+              <p class="job-meta">Aug 2005 — Nov 2008</p>
+            </header>
+            <ul>
+              <li>Performed inspections/maintenance under strict safety and procedural standards; ensured mission readiness.</li>
+            </ul>
+          </article>
+        </div>
+      </details>
+    </section>
 
-sections.forEach(section => {
-  observer.observe(section);
-});
-</script>
+    <!-- EDUCATION -->
+    <section id="education" class="card reveal">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>ITT Technical Institute-Cordova</strong> — BAS Information Systems &amp; Cyber-security (Cyber Security), 2015–2017</li>
+        <li><strong>ITT Technical Institute-Cordova</strong> — AAS Network System Administration, 2013–2016</li>
+      </ul>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="card reveal">
+      <h2>Contact</h2>
+
+      <div class="contact-meta">
+        <p><strong>Email:</strong> <a href="mailto:memphis.matthewmalone@gmail.com">memphis.matthewmalone@gmail.com</a></p>
+        <p><strong>Mobile:</strong> <a href="tel:+16629019904">662-901-9904</a></p>
+      </div>
+
+      <form action="https://formspree.io/f/xojnebnz" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn primary">Send Message</button>
+        <p class="form-note">This form sends directly to Matthew via Formspree.</p>
+      </form>
+    </section>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Matthew Malone</p>
+    </footer>
+
+  </main>
+
+  <script src="script.js" defer></script>
 </body>
 </html>
- 
