@@ -137,10 +137,23 @@ Senior IT specialist with extensive experience designing, securing and operating
 </main>
 <script>
 /* Theme Switch */
-const select = document.getElementById("themeSelect");
-select.addEventListener("change", function(){
-document.documentElement.setAttribute("data-theme", this.value);
+document.addEventListener("DOMContentLoaded", () => {
+  const select = document.getElementById("themeSelect");
+  if (!select) return;
+
+  // load saved theme (or default)
+  const saved = localStorage.getItem("theme") || "executive-blue";
+  document.documentElement.setAttribute("data-theme", saved);
+  select.value = saved;
+
+  // change theme
+  select.addEventListener("change", () => {
+    const t = select.value;
+    document.documentElement.setAttribute("data-theme", t);
+    localStorage.setItem("theme", t);
+  });
 });
+
 
 /* Active Nav Highlight */
 const sections = document.querySelectorAll("section");
